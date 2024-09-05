@@ -8,11 +8,3 @@ body {
   font-family: 'Roboto Mono', monospace;
   @apply min-h-screen;
 }
-
-/**
---text: #f5f5f5;          neutral-100
---background: #1f2937;    gray-800
---primary: #ebfcca;       lime-200
---secondary: #d9f99f;     lime-300
---accent: #86198f;        fuchsia-800
- */
