@@ -8,6 +8,8 @@ import {PartyComponent} from "../party/party.component";
 import {EnnemyComponent} from "../ennemy/ennemy.component";
 import {HazardComponent} from "../hazard/hazard.component";
 import {ThresholdEncounterTabComponent} from "../threshold-encounter-tab/threshold-encounter-tab.component";
+import { Meta } from '@angular/platform-browser';
+
 
 @Component({
   selector: 'app-encounter-calculator',
@@ -18,9 +20,11 @@ import {ThresholdEncounterTabComponent} from "../threshold-encounter-tab/thresho
 })
 export class EncounterCalculatorComponent {
 
-  constructor() {}
+  constructor(private meta: Meta) {
+    this.meta.addTag({ name: 'description', content: 'A simple Pathfinder 2E encounter calculator to create encounter relative to player\'s level' });
+  }
 
-
+  
   playerItems: IPlayerInfo[] = [];
   ennemyItems: IEnnemyInfo[] = [];
   hazardItems: IHazardInfo[] = [];

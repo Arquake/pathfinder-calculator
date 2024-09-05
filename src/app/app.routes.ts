@@ -6,9 +6,10 @@ export const routes: Routes = [
   {
     path: '',
     component: EncounterCalculatorComponent,
+    title: 'Pathfind Encounter Calculator',
     data: {
-      title: 'Pathfind Encounter Calculator',
-      description: 'A simple Pathfinder 2E encounter calculator to create encounter relative to player\'s level'
+
+      description: 'A simple Pathfinder 2E encounter calculator to create encounter relative to player\'s level',
     }
   },
   {
