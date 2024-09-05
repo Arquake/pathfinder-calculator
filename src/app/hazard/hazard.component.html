@@ -12,21 +12,21 @@
 
       <div class="w-full font-semibold grid grid-cols-2 gap-x-4 gap-y-2">
         <div id="ennemyCardCount" class="2xl:space-y-2 xl:space-y-1 space-y-0.5 col-span-full">
-          <label for="player-level-{{i}}" class="pl-2">Ennemy Count</label>
-          <input type="number" min="0" max="20" placeholder="Count ..." id="player-level-{{i}}" [(ngModel)]="item.count" (input)="countChange()"
+          <label for="hazard-level-{{i}}" class="pl-2">Hazard Count</label>
+          <input type="number" min="0" max="20" placeholder="Count ..." id="hazard-level-{{i}}" [(ngModel)]="item.count" (input)="countChange()"
                  class="w-full xl:w-full px-4 text-neutral-900 rounded-xl bg-blue-200 placeholder-gray-500 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none">
         </div>
 
         <div id="ennemyCardCr" class="2xl:space-y-2 xl:space-y-1 space-y-0.5 col-span-full">
-          <label for="player-level-{{i}}" class="pl-2">Ennemy Cr</label>
-          <input type="number" min="0" max="20" placeholder="Cr ..." id="player-level-{{i}}" [(ngModel)]="item.cr" (input)="crChange()"
+          <label for="hazard-level-{{i}}" class="pl-2">Hazard Cr</label>
+          <input type="number" min="0" max="20" placeholder="Cr ..." id="hazard-level-{{i}}" [(ngModel)]="item.cr" (input)="crChange()"
                  class="w-full xl:w-full md:w-3/4 px-4 text-neutral-900 rounded-xl bg-blue-200 placeholder-gray-500 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none">
         </div>
 
         <div class="pl-2 xl:space-y-1 grid xl:grid-cols-1 lg:grid-cols-2 sm:grid-cols-1 grid-cols-2 justify-center sm:gap-y-1 col-span-2">
           <div class="flex h-min">
-            <input type="checkbox" id="elite-ennemy" (input)="isComplex(i)"/>
-            <label for="elite-ennemy" class="pl-2">Complex</label>
+            <input type="checkbox" id="hazard-complex" (input)="isComplex(i)"/>
+            <label for="hazard-complex" class="pl-2">Complex</label>
           </div>
         </div>
 

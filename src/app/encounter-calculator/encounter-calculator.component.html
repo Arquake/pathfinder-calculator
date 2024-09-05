@@ -4,9 +4,9 @@
   <app-hazard [items]="hazardItems" class="block" (hazardChange)="calculateDifficulty()"/>
 
   <div class="font-medium 2xl:leading-8 leading-6 2xl:px-4 px-4">
-    <div id="party-average-level">Party average level : {{partyLevel}}</div>
-    <div id="monster-xp">Monster Xp : {{ennemyXp}}</div>
-    <div id="threat-type" class="">
+    <p id="party-average-level">Party average level : {{partyLevel}}</p>
+    <p id="monster-xp">Monster Xp : {{ennemyXp}}</p>
+    <p id="threat-type" class="">
       Threat Level :
       @if (validThreat) {
         @switch (threatType) {
@@ -34,7 +34,7 @@
         <span class="text-red-500">Invalid threat</span>
       }
 
-    </div>
+    </p>
 
     <app-threshold-encounter-tab [PartyXpBudget]="currentPartyXpBudgetAdjusted" />
     <!--

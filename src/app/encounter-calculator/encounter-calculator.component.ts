@@ -24,7 +24,7 @@ export class EncounterCalculatorComponent {
     this.meta.addTag({ name: 'description', content: 'A simple Pathfinder 2E encounter calculator to create encounter relative to player\'s level' });
   }
 
-  
+
   playerItems: IPlayerInfo[] = [];
   ennemyItems: IEnnemyInfo[] = [];
   hazardItems: IHazardInfo[] = [];
