@@ -1,0 +1,12 @@
+.add-card {
+  @apply sm:h-full py-2;
+}
+
+.player-card {
+  @apply p-2;
+}
+
+.card {
+  @apply bg-lime-200 text-gray-800 rounded-2xl items-center justify-center flex flex-wrap 2xl:h-48 xl:h-48 sm:h-36;
+}
+
