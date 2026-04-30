@@ -4,11 +4,10 @@ import { CommonModule } from '@angular/common';
 import {IEnnemyInfo} from "../Interfaces/IEnnemyInfo";
 
 @Component({
-  selector: 'app-ennemy',
-  standalone: true,
-  imports: [FormsModule, CommonModule],
-  templateUrl: './ennemy.component.html',
-  styleUrl: './ennemy.component.css'
+    selector: 'app-ennemy',
+    imports: [FormsModule, CommonModule],
+    templateUrl: './ennemy.component.html',
+    styleUrl: './ennemy.component.css'
 })
 export class EnnemyComponent {
 

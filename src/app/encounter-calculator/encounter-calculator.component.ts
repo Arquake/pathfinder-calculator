@@ -12,11 +12,10 @@ import { Meta } from '@angular/platform-browser';
 
 
 @Component({
-  selector: 'app-encounter-calculator',
-  standalone: true,
-  imports: [PartyComponent, EnnemyComponent, HazardComponent, ThresholdEncounterTabComponent],
-  templateUrl: './encounter-calculator.component.html',
-  styleUrl: './encounter-calculator.component.css'
+    selector: 'app-encounter-calculator',
+    imports: [PartyComponent, EnnemyComponent, HazardComponent, ThresholdEncounterTabComponent],
+    templateUrl: './encounter-calculator.component.html',
+    styleUrl: './encounter-calculator.component.css'
 })
 export class EncounterCalculatorComponent {
 

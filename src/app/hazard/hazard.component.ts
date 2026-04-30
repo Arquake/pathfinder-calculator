@@ -4,16 +4,15 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {IHazardInfo} from "../Interfaces/IHazard";
 
 @Component({
-  selector: 'app-hazard',
-  standalone: true,
+    selector: 'app-hazard',
     imports: [
         NgForOf,
         ReactiveFormsModule,
         FormsModule,
         CommonModule
     ],
-  templateUrl: './hazard.component.html',
-  styleUrl: './hazard.component.css'
+    templateUrl: './hazard.component.html',
+    styleUrl: './hazard.component.css'
 })
 export class HazardComponent {
   @Input() items: IHazardInfo[] = [];

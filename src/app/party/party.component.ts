@@ -5,11 +5,10 @@ import { IPlayerInfo } from "../Interfaces/IPlayerInfo";
 
 
 @Component({
-  selector: 'app-party',
-  standalone: true,
-  imports: [FormsModule, CommonModule],
-  templateUrl: './party.component.html',
-  styleUrl: './party.component.css'
+    selector: 'app-party',
+    imports: [FormsModule, CommonModule],
+    templateUrl: './party.component.html',
+    styleUrl: './party.component.css'
 })
 
 
