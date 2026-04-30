@@ -1,12 +1,12 @@
 import {Component, EventEmitter, Input, Output} from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { CommonModule } from '@angular/common';
+
 import { IPlayerInfo } from "../Interfaces/IPlayerInfo";
 
 
 @Component({
     selector: 'app-party',
-    imports: [FormsModule, CommonModule],
+    imports: [FormsModule],
     templateUrl: './party.component.html',
     styleUrl: './party.component.css'
 })

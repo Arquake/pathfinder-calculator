@@ -1,16 +1,14 @@
 import {Component, EventEmitter, Input, Output} from '@angular/core';
-import {CommonModule, NgForOf} from "@angular/common";
+
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {IHazardInfo} from "../Interfaces/IHazard";
 
 @Component({
     selector: 'app-hazard',
     imports: [
-        NgForOf,
-        ReactiveFormsModule,
-        FormsModule,
-        CommonModule
-    ],
+    ReactiveFormsModule,
+    FormsModule
+],
     templateUrl: './hazard.component.html',
     styleUrl: './hazard.component.css'
 })

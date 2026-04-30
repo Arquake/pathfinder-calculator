@@ -1,11 +1,11 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { CommonModule } from '@angular/common';
+
 import {IEnnemyInfo} from "../Interfaces/IEnnemyInfo";
 
 @Component({
     selector: 'app-ennemy',
-    imports: [FormsModule, CommonModule],
+    imports: [FormsModule],
     templateUrl: './ennemy.component.html',
     styleUrl: './ennemy.component.css'
 })
